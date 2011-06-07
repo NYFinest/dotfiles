@@ -1,32 +1,33 @@
 urxvt*scrollBar:false
 urxvt*transparent: true
-urxvt*shading: 30
+urxvt*shading: 20
 #urxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
-urxvt.font: -*-dina-medium-r-normal--13-*-*-*-*-*-*-*
+urxvt.font: -*-dina-medium-r-normal--15-*-*-*-*-*-*-*
 
-*background:    #000000
-*foreground:    #FFFFFF
+*foreground:              #a0a0a0
+!*background:              #1B1D1E
+*background:              #000000
 !black
-*color0 :            #222222
-*color8 :            #454545
+*color0:                  #1B1D1E
+*color8:                  #505354
 !red
-*color1 :            #B22222
-*color9 :            #FA8072
+*color1:                  #F92672
+*color9:                  #FF5995
 !green
-*color2 :            #556B2F
-*color10:            #9ACD32
+*color2:                  #82B414
+*color10:                 #B6E354
 !yellow
-*color3 :            #B8860B
-*color11:            #DAA520
+*color3:                  #FD971F
+*color11:                 #FEED6C
 !blue
-*color4 :            #4682B4
-*color12:            #6495ED
+*color4:                  #4E82AA
+*color12:                 #0C73C2
 !magenta
-*color5 :            #9932CC
-*color13:            #DA70D6
+*color5:                  #8C54FE
+*color13:                 #9E6FFE
 !cyan
-*color6 :            #87CEEB
-*color14:            #B0E0E6
+*color6:                  #465457
+*color14:                 #899CA1
 !white
-*color7 :            #C0C0C0
-*color15:            #FFFFFF
+*color7:                  #CCCCC6
+*color15:                 #F8F8F2

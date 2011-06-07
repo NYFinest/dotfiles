@@ -18,10 +18,17 @@ xset fp rehash
 # acpid restart
 sudo /etc/rc.d/acpid restart &
 
-# start network
-wicd-client &
+# start trayfreq
+trayfreq &
+# apps that need delays
+{
+	sleep 3
+	~/dzconky 
+	
+} &
 {
 	sleep 4
-	sh ~/.fehbg
+	/home/edwin/Wallpapers/wallpaper.sh
 } &
-exec ck-launch-session dbus-launch /usr/bin/subtle
+/usr/bin/nm-applet --sm-disable &
+exec  /usr/bin/subtle
